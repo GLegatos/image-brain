@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: 'Courier New' Georgia, Times, 'Times New Roman';
+  background: #F2F3D9;
+}
+
+button {
+  cursor: pointer;
+}
+
+
