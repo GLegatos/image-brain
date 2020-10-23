@@ -79,7 +79,7 @@ loadUser = (data) => {
 
     onSubmit = () => {
       this.setState({imageUrl: this.state.input});
-      fetch('https://mighty-dusk-13617.herokuapp.com/imageurl', {
+      fetch('https://safe-shore-22517.herokuapp.com/imageurl', {
             method: 'post',
             headers: {'content-type': 'application/json'},
             body: JSON.stringify({
@@ -89,7 +89,7 @@ loadUser = (data) => {
       .then(response => response.json())
       .then(response => {
         if (response) {
-          fetch('https://mighty-dusk-13617.herokuapp.com/image', {
+          fetch('https://safe-shore-22517.herokuapp.com/image', {
             method: 'put',
             headers: {'content-type': 'application/json'},
             body: JSON.stringify({
